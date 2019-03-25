@@ -19,7 +19,7 @@ public class User implements Serializable {
      * 用户ID
      */
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)//自增策略
     private Long id;
 
     /**

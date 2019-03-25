@@ -12,3 +12,11 @@ spring:
 
   jpa:
     show-sql: true
+
+  data:
+    elasticsearch:
+      cluster-nodes: localhost:9300
+      properties:
+        transport:
+          tcp:
+            connect_timeout: 120s
