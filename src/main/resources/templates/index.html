@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title> BLOG | 湾 仔 码 头</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+  <link rel="icon" type="image/png" href="i/favicon.png">
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="i/app-icon72x72@2x.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon-precomposed" href="i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileImage" content="i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+  <link rel="stylesheet" href="css/amazeui.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body id="blog">
+
+<header class="am-g am-g-fixed blog-fixed blog-text-center blog-header">
+    <div class="am-u-sm-8 am-u-sm-centered">
+        <!-- <img width="200" src="http://s.amazeui.org/media/i/brand/amazeui-b.png" alt="Amaze UI Logo"/> -->
+        <h1 class="am-hide-sm-only"><a href="/login">湾 仔 码 头</a></h1>
+    </div>
+
+</header>
+<hr>
+<nav class="am-g am-g-fixed blog-fixed blog-nav">
+<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only blog-button" data-am-collapse="{target: '#blog-collapse'}" ><span class="am-sr-only">导航切换</span> <span class="am-icon-bars"></span></button>
+
+  <div class="am-collapse am-topbar-collapse" id="blog-collapse">
+    <ul class="am-nav am-nav-pills am-topbar-nav">
+      <li class="am-active"><a href="/">首页</a></li>
+      <li><a href="/">日志</a></li>
+      <li><a href="/">标签</a></li>
+      <li><a href="lw-article-fullwidth.html">轨迹</a></li>
+    </ul>
+    <form class="am-topbar-form am-topbar-right am-form-inline" role="search">
+      <div class="am-form-group">
+        <input type="text" class="am-form-field am-input-sm" placeholder="看点啥？">
+        <button type="button" class="am-btn am-btn-secondary am-round am-btn-sm">走 着</button>
+      </div>
+    </form>
+  </div>
+</nav>
+<hr>
+
+<!-- content srart -->
+<div class="am-g am-g-fixed blog-fixed">
+    <div class="am-u-md-8 am-u-sm-12">
+        <div class="articles">
+
+        </div>
+
+        <div class="my-row" id="page-father">
+            <div id="pagination">
+                <ul class="am-pagination  am-pagination-centered">
+                    <li class="am-disabled"><a href="#">&laquo; 上一页</a></li>
+                    <li class="am-active"><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">下一页 &raquo;</a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+    </div>
+    <!-- content end -->
+
+    <div class="am-u-md-4 am-u-sm-12 blog-sidebar">
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>关于我</span></h2>
+            <img src="i/f1.png" alt="about me" class="blog-entry-img" >
+            <p>汉子,还没秃</p>
+            <p>从一个海员,努力向码农转型</p>
+        </div>
+         <!--<div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-text-center blog-title"><span>联系我</span></h2>
+            <p>
+                <a href=""><span class="am-icon-qq am-icon-fw am-primary blog-icon"></span></a>
+                <a href=""><span class="am-icon-github am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weibo am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-reddit am-icon-fw blog-icon"></span></a>
+                <a href=""><span class="am-icon-weixin am-icon-fw blog-icon"></span></a>
+            </p>
+        </div>-->
+        <!-- <div class="blog-clear-margin blog-sidebar-widget blog-bor am-g ">
+            <h2 class="blog-title"><span>TAG cloud</span></h2>
+            <div class="am-u-sm-12 blog-clear-padding">
+            <a href="" class="blog-tag">amaze</a>
+            <a href="" class="blog-tag">妹纸 UI</a>
+            <a href="" class="blog-tag">HTML5</a>
+            <a href="" class="blog-tag">这是标签</a>
+            <a href="" class="blog-tag">Impossible</a>
+            <a href="" class="blog-tag">开源前端框架</a>
+            </div>
+        </div> -->
+        <div class="blog-sidebar-widget blog-bor">
+            <h2 class="blog-title"><span>程序员自爱条款</span></h2>
+            <ul class="am-list">
+                <li><a>不能秃</a></li>
+                <li><a>热爱生活，关心家人</a></li>
+                <li><a>学习要有取舍</a></li>
+                <li><a>多运动，多喝水</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- content end -->
+
+<footer class="blog-footer">
+    <div class="blog-text-center">© 2019 | Made By LH</div>
+</footer>
+
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="js/jquery.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="js/amazeui.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/plugs_paging.js"></script>
+
+</body>
+</html>
