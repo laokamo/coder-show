@@ -1,8 +1,8 @@
-package com.example.blog.service.impl;
+package com.laokamo.blog.service.impl;
 
-import com.example.blog.model.Article;
-import com.example.blog.repository.ArticleRepository;
-import com.example.blog.service.ArticleService;
+import com.laokamo.blog.model.Article;
+import com.laokamo.blog.repository.ArticleRepository;
+import com.laokamo.blog.service.ArticleService;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import net.sf.json.JSONArray;

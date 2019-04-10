@@ -1,6 +1,6 @@
-package com.example.blog.repository;
+package com.laokamo.blog.repository;
 
-import com.example.blog.model.User;
+import com.laokamo.blog.model.User;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

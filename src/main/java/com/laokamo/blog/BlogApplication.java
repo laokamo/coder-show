@@ -1,4 +1,4 @@
-package com.example.blog;
+package com.laokamo.blog;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

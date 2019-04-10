@@ -1,7 +1,7 @@
-package com.example.blog.controller;
+package com.laokamo.blog.controller;
 
-import com.example.blog.model.Article;
-import com.example.blog.service.ArticleService;
+import com.laokamo.blog.model.Article;
+import com.laokamo.blog.service.ArticleService;
 import net.sf.json.JSONArray;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

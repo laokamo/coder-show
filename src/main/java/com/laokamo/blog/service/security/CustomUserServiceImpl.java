@@ -1,9 +1,9 @@
-package com.example.blog.service.security;
+package com.laokamo.blog.service.security;
 
-import com.example.blog.model.Role;
-import com.example.blog.model.User;
-import com.example.blog.repository.UserRepository;
-import com.example.blog.service.UserService;
+import com.laokamo.blog.model.Role;
+import com.laokamo.blog.model.User;
+import com.laokamo.blog.repository.UserRepository;
+import com.laokamo.blog.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 

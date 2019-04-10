@@ -1,4 +1,4 @@
-package com.example.blog.utils;
+package com.laokamo.blog.utils;
 
 /**
  * @author ：laokamo

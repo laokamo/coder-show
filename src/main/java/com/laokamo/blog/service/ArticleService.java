@@ -1,6 +1,6 @@
-package com.example.blog.service;
+package com.laokamo.blog.service;
 
-import com.example.blog.model.Article;
+import com.laokamo.blog.model.Article;
 import net.sf.json.JSONArray;
 
 /**

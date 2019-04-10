@@ -1,7 +1,7 @@
-package com.example.blog.config;
+package com.laokamo.blog.config;
 
-import com.example.blog.service.security.CustomUserServiceImpl;
-import com.example.blog.utils.MD5Util;
+import com.laokamo.blog.service.security.CustomUserServiceImpl;
+import com.laokamo.blog.utils.MD5Util;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;

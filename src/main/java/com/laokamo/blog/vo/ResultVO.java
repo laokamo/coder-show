@@ -1,4 +1,4 @@
-package com.example.blog.vo;
+package com.laokamo.blog.vo;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.example.blog.utils;
+package com.laokamo.blog.utils;
 
-import com.example.blog.vo.ResultVO;
+import com.laokamo.blog.vo.ResultVO;
 
 /**
  * @author ：laokamo

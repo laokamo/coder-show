@@ -1,6 +1,6 @@
-package com.example.blog.service.impl;
+package com.laokamo.blog.service.impl;
 
-import com.example.blog.service.UserService;
+import com.laokamo.blog.service.UserService;
 import org.springframework.stereotype.Service;
 
 /**

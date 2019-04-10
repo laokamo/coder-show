@@ -1,4 +1,4 @@
-package com.example.blog.model;
+package com.laokamo.blog.model;
 
 import lombok.Data;
 

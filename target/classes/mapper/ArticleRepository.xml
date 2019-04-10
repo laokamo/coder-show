@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.example.blog.repository.ArticleRepository">
+<mapper namespace="com.laokamo.blog.repository.ArticleRepository">
 
     <insert id="insert" >
         INSERT INTO article (author,title,content,html_content,click,type,create_time,update_time)
@@ -9,11 +9,11 @@
     </insert>
 
 
-    <select id="selectArticleById" parameterType="long" resultType="com.example.blog.model.Article">
+    <select id="selectArticleById" parameterType="long" resultType="com.laokamo.blog.model.Article">
         SELECT * from article where id=#{id}
     </select>
 
-    <select id="selectAll" parameterType="long" resultType="com.example.blog.model.Article">
+    <select id="selectAll" parameterType="long" resultType="com.laokamo.blog.model.Article">
         SELECT * from article order by create_time desc
     </select>
 </mapper>

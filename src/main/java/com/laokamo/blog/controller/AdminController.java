@@ -1,11 +1,11 @@
-package com.example.blog.controller;
+package com.laokamo.blog.controller;
 
-import com.example.blog.model.Article;
-import com.example.blog.service.ArticleService;
-import com.example.blog.utils.ArticleTabloidUtil;
-import com.example.blog.utils.ResultResponse;
-import com.example.blog.utils.TimeUtils;
-import com.example.blog.vo.ResultVO;
+import com.laokamo.blog.model.Article;
+import com.laokamo.blog.service.ArticleService;
+import com.laokamo.blog.utils.ArticleTabloidUtil;
+import com.laokamo.blog.utils.ResultResponse;
+import com.laokamo.blog.utils.TimeUtils;
+import com.laokamo.blog.vo.ResultVO;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;

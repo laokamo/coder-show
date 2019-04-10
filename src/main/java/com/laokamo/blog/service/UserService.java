@@ -1,4 +1,4 @@
-package com.example.blog.service;
+package com.laokamo.blog.service;
 
 public interface UserService {
 }
